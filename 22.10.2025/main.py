@@ -30,7 +30,7 @@ def wyswietlNajwiekszyUjemnyElement(lista:list[int]):
 def sprawdzPesel():
     #Tak więc początek numeru PESEL osoby urodzonej 10 lutego 1899 roku będzie wyglądał tak: 998210... a osoby urodzonej 10 lutego 1999 roku tak: 990210...
     #Teraz została nam jeszcze sprawa obliczania sumy kontrolnej. Każdą pozycję numeru ewidencyjnego mnoży się przez odpowiednią wagę, są to kolejno: 1 3 7 9 1 3 7 9 1 3. Następnie utworzone iloczyny dodaje się i wynik dzieli się modulo 10. Wynik ten należy odjąć od 10 i znów podzielić przez modulo 10 (to zabezpieczenie gdybyśmy w poprzednim kroku otrzymali 10).
-    pesel = "08241508954";
+    pesel = "00000000000";
     if(len(pesel) != 11):
         print("Nieprawidlowy pesel");
         exit();
