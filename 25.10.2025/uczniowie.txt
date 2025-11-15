@@ -1,0 +1,6 @@
+{
+    "Bartosz": 4.75,
+    "Wolodia": 4.75,
+    "Wiktor": 5.0,
+    "Kacper": 5
+}
